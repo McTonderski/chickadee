@@ -1,0 +1,34 @@
+[
+  {
+    "cve_name": "CVE-2021-12345",
+    "date": "InvalidDate",  // Invalid date format
+    "severity": "Critical",
+    "current_version": "1.2.3",
+    "resolved_version": "1.2.4",
+    "path": "/path/to/libxyz"
+  },
+  {
+    "cve_name": "CVE-2021-67890",
+    "date": "2024-01-01T00:00:00Z",
+    "severity": "",  // Missing severity
+    "current_version": "1.2.3",
+    "resolved_version": "1.2.5",
+    "path": "/path/to/otherlib"
+  },
+  {
+    "cve_name": "CVE-2021-98765",
+    "date": "2024-01-01T00:00:00Z",
+    "severity": "InvalidSeverity",  // Invalid severity value
+    "current_version": "2.3.4",
+    "resolved_version": "2.4.0",
+    "path": "/path/to/badlib"
+  },
+  {
+    // Corrupted JSON entry (missing closing brace)
+    "cve_name": "CVE-2021-54321",
+    "date": "2024-01-01T00:00:00Z",
+    "severity": "Low",
+    "current_version": "3.2.1",
+    "resolved_version": "3.2.5",
+    "path": "/path/to/corrupted"
+    ]

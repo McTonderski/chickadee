@@ -1,0 +1,6 @@
+ntfy:
+  server_url: "http://100.112.250.111:8093"
+  topic: "matt_test"
+  username: "matt"
+  password: "Kwiecien26@"
+  timeout_seconds: 5

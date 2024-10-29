@@ -1,0 +1,18 @@
+[
+  {
+    "cvename": "CVE-2021-12345",
+    "date": "2024-01-01T00:00:00Z",
+    "severity": "Critical",
+    "currentversion": "1.2.3",
+    "resolvedversion": "1.2.4",
+    "path": "/path/to/libxyz"
+  },
+  {
+    "cvename": "CVE-2021-67890",
+    "date": "2024-01-01T00:00:00Z",
+    "severity": "High",
+    "currentversion": "1.2.3",
+    "resolvedversion": "1.2.5",
+    "path": "/path/to/otherlib"
+  }
+]
